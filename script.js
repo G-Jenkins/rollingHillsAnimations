@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
   gsap.to("#rotatingText", {
     rotation: -360,
     transformOrigin: "center center",
-    duration: 8,
+    duration: 12,
     repeat: -1,
     ease: "linear"
   });
